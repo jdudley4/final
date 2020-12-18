@@ -21,6 +21,8 @@ public class testLargest  {
         int maxValue = temp1.largest(arr);
 	/** add tests to check for this unit test **/
         assertEquals(arr[0], maxValue);
+        assertTrue(arr[0] > 0);
+
     }
 	
 	public void testNegative(){
